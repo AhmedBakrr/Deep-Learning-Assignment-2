@@ -23,12 +23,12 @@ for t in range(len(X)):
     h_prev, C_prev = h_t, C_t
     
     print(f"Time Step {t+1}:")
-    print(f"  Forget gate (f_t): {f_t:.3f}")
-    print(f"  Input gate (i_t): {i_t:.3f}")
-    print(f"  Candidate cell state (C_tilde_t): {C_tilde_t:.3f}")
-    print(f"  Cell state (C_t): {C_t:.3f}")
-    print(f"  Output gate (o_t): {o_t:.3f}")
-    print(f"  Hidden state (h_t): {h_t:.3f}")
+    print(f"  Forget gate: {f_t:.3f}")
+    print(f"  Input gate: {i_t:.3f}")
+    print(f"  Candidate cell state: {C_tilde_t:.3f}")
+    print(f"  Cell state: {C_t:.3f}")
+    print(f"  Output gate: {o_t:.3f}")
+    print(f"  Hidden state: {h_t:.3f}")
     print()
 
 W_y, b_y = 4, 0
